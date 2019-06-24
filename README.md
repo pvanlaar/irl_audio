@@ -1,6 +1,8 @@
 irl_audio
 =========
 
+__Only the `rt_audio_ros` package remains in this repository__
+
 A set of ROS packages for ManyEars, IntRoLab's sound localization and
 tracking library.
 
@@ -29,4 +31,3 @@ Tracked sources details will appear on the '/tracked_sources' topic, while the
 source with the highest energy.
 Keep in mind that only the orientation on the XY plane in front of the Kinect is
 considered, and so only the angle around Z should be used.
-
